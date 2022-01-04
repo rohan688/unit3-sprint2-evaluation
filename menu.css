@@ -1,0 +1,31 @@
+#top{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-image: url(https://i.pinimg.com/originals/f0/98/b1/f098b1474bc51d35964b6faa032605dd.jpg);
+  background-size: cover;
+  border-radius:10px ;
+  color: white;
+  font-family: sans-serif;
+  padding-top: 20px;
+  font-size: 20px;
+}
+img{
+    height: 250px;
+    border-radius:10px ;
+   
+}
+#pro{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(7,400px);
+    margin-top: 50px;
+    grid-gap: 20px;
+}
+h2{
+    color: red;
+    font-family: sans-serif;
+}
+.div1{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
